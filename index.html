@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+        <!-- DaisyUI and Tailwind CSS Connection -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+        <!-- Google Font Connection -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">   
+        <!-- Fontawesome connection -->
+        <script src="https://kit.fontawesome.com/6e7e069626.js" crossorigin="anonymous"></script>
+    
+        <!-- Tailwind CSS Coloring -->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    'black-color': '#131318',
+                    'btn-color': '#B68C5A',
+                    'grey-color': '#A0A0A0',
+                    'heading': '#414040',
+                    'para': '#707070',
+
+                  }
+                }
+              }
+            }
+          </script>
+    
+        <!-- Google Font Styling (RAW CSS) -->
+        <style>
+            .font-lato{
+                font-family: 'Lato', sans-serif;
+            }
+        </style>
+</head>
+<body class="font-lato">
+    <header class="bg-[#E554731A]">
+        <div class="container mx-auto flex pt-12 items-center">
+            <div class="space-y-8">
+                <h1 class="text-7xl font-extrabold">
+                    Let's make <br> beautiful flowers a <br> part of your life.
+                </h1>
+                <p class="w-2/4 text-gray-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                <button class="bg-[#E55473] py-5 px-10 rounded-lg text-xl font-bold text-white">Shop Now</button>
+            </div>
+            <div>
+                <img class="w-[835px]" src="./images/pngwing 10.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <section class="mt-44">
+            <div class="text-center pb-12">
+                <h2 class="text-4xl font-extrabold pb-6">Our Featured Flowers</h2>
+                <p class="w-1/4 mx-auto text-gray-500 leading-7">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="flex justify-between items-end ">
+                <div>
+                    <div class="bg-[#A7216226] rounded-t-full px-16 pt-28 h-[538px]">
+                        <img src="./images/pngwing 6.png" alt="">
+                    </div>
+                    <p href="" class="text-2xl pt-8 font-bold text-center underline ">Pink Flower Tree</p>
+                </div>
+                <div>
+                    <div class="bg-[#0597A026] rounded-t-full px-16 pt-28 h-[538px]">
+                        <img src="./images/pngwing 5.png" alt="">
+                    </div>
+                    <p href="" class="text-2xl pt-8 font-bold text-center underline ">Pink Flower Tree</p>
+                </div>
+                <div>
+                    <div class="bg-[#477D1126] rounded-t-full px-16 pt-[68px] h-[538px]">
+                        <img src="./images/pngwing 7.png" alt="">
+                    </div>
+                    <p href="" class="text-2xl pt-8 font-bold text-center underline ">Pink Flower Tree</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
